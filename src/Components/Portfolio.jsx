@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/foto-proyectos.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "desktop with laptop and hands of a person";
 
 /**
  * Project list
@@ -31,35 +31,35 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Blog Post: Mejora tu productividad con las nuevas soluciones de Microsoft",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Colaboración en el blog de la empresa Sogeti, donde hablo de Teams Premium, Viva Sales y Bing potenciado con ChatGPT.",
+    url: "https://itblogsogeti.com/2023/02/23/nuevas-soluciones-microsoft/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Video en YouTube sobre las novedades de Microsoft Ignite 2022",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Entrevista en el YouTube de la empresa Sogeti, donde hablo de las novedades de Microsoft Ignite 2022 sobre todo en relación con las Business Apps de Microsoft.",
+    url: "https://www.youtube.com/watch?v=B6FKoo9rz08&t=739s&ab_channel=SOGETISPAIN",
   },
   {
-    title: "My Resume Site",
+    title: "Microsoft Learn Student Ambassador",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Formo parte de un programa de Microsoft para estudiantes universitarios, donde se aprende sobre las tecnologías de Microsoft y se comparte el conocimiento con otros estudiantes.",
+    url: "https://studentambassadors.microsoft.com/studentambassadors/profile/956e07fe-7a5f-45c2-a7ef-1f2dddc56897?wt.mc_id=studentamb_81066",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Entrevista a Barack Obama en la Casa Blanca",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Fui invitado a la Casa Blanca para una entrevista con Barack Obama, donde hablamos sobre la importancia de la educación y la tecnología.",
+    url: "https://www.youtube.com/watch?v=p7YXXieghto&ab_channel=Torwik",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="light" id="portfolio">
-      <h2>Portfolio</h2>
+      <h2>Mis logros y contribuciones</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
